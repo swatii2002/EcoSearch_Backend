@@ -1,0 +1,75 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F5F3EE;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.green {
+  color: #6B8E23;
+}
+
+.main-heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.waitlist-section {
+  margin: 20px auto;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #6B8E23;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sustainable-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.feature {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #6B8E23;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: left;
+  width: 100%;
+}
